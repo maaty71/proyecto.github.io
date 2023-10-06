@@ -1,0 +1,161 @@
+html{
+    background-color:hsl(30, 38%, 92%);
+    width: 1220px;
+    height: 620px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cuerpo{
+    display: flex;
+    background-color: white;
+    height: 600px;
+    width: 700px;
+
+    border-radius: 25px;
+ 
+}
+.imagenPerfume2{
+    display: none;
+}
+.imagenPerfume{
+    
+    height: 600px;
+    width: 350px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+
+}
+.zona2{
+    padding: 20px;
+}
+
+.titulo{
+    color: #86868a;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    margin-left: 15px;
+}
+.zona2 h1{
+    margin: 20px 25px 15px 20px;
+
+    font-size: 40px;
+}
+.precio{
+    display: flex;
+}
+
+.parrafo{
+    text-align:start;
+    font-size: 23px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #b0b0bb;
+    margin: 10px 25px 0px;
+    
+}
+.precio{
+    margin-top: 40px;
+    margin-left: 30px;
+    align-items: center;
+}
+.precio h3{
+    color: #3f8068;
+    font-size: 40px;
+    margin: 0;
+    font-family: 'Fraunces', serif;
+}
+.precio h4{
+    color:rgb(184, 178, 178);
+    font-size: 18px;
+    margin: 0;
+    margin-left: 15px;
+    text-decoration:line-through;
+    font-family: 'Fraunces', serif;
+}
+.boton{
+    display: flex;
+    align-items: center;
+}
+.boton-1{
+    display: flex;
+    background-color:#3f8068;
+    border-style: none;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 250px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+.boton-1:hover{
+    background-color: #184131;
+}
+.carrito{
+    margin-right: 15px;
+    width: 18px;
+}
+
+@media screen and (max-width: 450px) {
+    html{
+        background-color:hsl(30, 38%, 92%);
+        width: 375px;
+        height: 700px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cuerpo{
+      
+        display: block;
+        background-color: white;
+        height: 650px;
+        width: 330px;
+     
+    }
+
+    .imagenPerfume{
+        
+        display: none;
+    
+    }
+
+    .imagenPerfume2{
+        display: flex;
+        width: 330px;
+        height: 250px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        justify-content: center;
+    }
+
+    .titulo{
+        color: #86868a;
+        font-size: 15px;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 400;
+        margin-left: 15px;
+    }
+    .zona2{
+        background-color: white;
+    }
+
+    .zona2 h1{
+        margin: 10px 10px 15px 10px;
+    
+        font-size: 35px;
+    }
+    .parrafo{
+        text-align:start;
+        font-size: 15px;
+        font-family:Arial, Helvetica, sans-serif;
+        color: #b0b0bb;
+        margin: 10px 25px 0px;
+        
+    }
+}
